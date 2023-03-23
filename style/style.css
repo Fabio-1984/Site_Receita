@@ -131,4 +131,60 @@ button:hover{
 }
 
 
+/*Responsividade*/
 
+/*Home*/
+
+@media screen and (max-width: 500px) {
+    ul li{
+      display: block;
+      text-align: center;
+      
+    }
+  }
+
+  @media screen and (max-width: 100px) {
+    .image {
+      float: none;
+      text-align: center;
+     
+      
+    }
+  }
+
+
+  /*Receita*/
+  @media screen and (max-width: 500px) {
+    #containerReceita{
+      
+      text-align: center;
+      margin-left: 20px;
+    }
+  }
+
+   /*Video*/
+
+   @media screen and (max-width: 500px) {
+    #mainVideo{
+    
+        width: 100px;
+        height: 100px;
+      
+    }
+  }
+
+
+  /*Contato*/
+  @media screen and (max-width: 500px) {
+    #formulario{
+    
+        margin-left: 20px;
+     
+      
+    }
+  }
+
+  
+
+
+  
