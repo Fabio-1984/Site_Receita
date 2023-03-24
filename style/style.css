@@ -152,6 +152,15 @@ button:hover{
     }
   }
 
+@media screen and (max-width: 100px) {
+    #mainHome{
+      margin: auto;
+    width: 100%;
+     
+      
+    }
+  }
+
 
   /*Receita*/
   @media screen and (max-width: 500px) {
